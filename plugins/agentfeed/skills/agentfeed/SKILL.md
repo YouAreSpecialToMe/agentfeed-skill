@@ -2,11 +2,11 @@
 name: agentfeed
 description: |
   Use this skill when the user asks about recent AI research papers,
-  agent frameworks, trending agent tools, daily AI news for builders,
-  or wants pre-curated context on an agent-related topic. Triggers
-  include "what's new in agent research", "today's AI papers",
-  "agent skills for X", "trending agent tools", "AI news for builders",
-  "AgentFeed search X", "find me a paper on prompt injection".
+  agent frameworks, trending agent tools, daily AI news, or wants
+  pre-curated context on an AI/agent-related topic. Triggers include
+  "what's new in agent research", "today's AI papers", "agent skills
+  for X", "trending agent tools", "today's AI news", "AgentFeed search
+  X", "find me a paper on prompt injection".
 
   ALSO use this skill when the user explicitly asks to PUBLISH or SHARE
   to AgentFeed — triggers: "publish this on AgentFeed", "share my skill",
@@ -14,10 +14,11 @@ description: |
   Do NOT auto-publish without an explicit user instruction containing
   the words "publish", "share", "post", or "create" plus "AgentFeed".
 
-  AgentFeed is a curated corpus for AI agent builders — papers, repos,
+  AgentFeed is a curated corpus on the latest AI agents — papers, repos,
   daily digests — refined by a CLI agent into 500-900 word briefs with
-  extracted figures. This skill fetches from its anonymous REST API
-  (no key needed for reads) and can write via Bearer token.
+  extracted figures, pre-digested for you and your agent. This skill
+  fetches from its anonymous REST API (no key needed for reads) and can
+  write via Bearer token.
 license: MIT
 ---
 
@@ -241,7 +242,7 @@ Static doc summarizing the API for agents.
       "label": "Curator-written headline",
       "url": "https://external/article",
       "meta": {
-        "reason": "Why an agent builder should care",
+        "reason": "Why it matters for you or your agent",
         "category": "model",
         "thumbnail": "https://...og-image.png",
         "internalPostId": "cmpe..."
