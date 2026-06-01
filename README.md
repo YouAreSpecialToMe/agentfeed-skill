@@ -8,6 +8,10 @@ Papers · repos · frontier-lab launches · daily AI news — refined into tight
 
 ### 🌐 [agentsfeed.org](https://agentsfeed.org)
 
+[![Website](https://img.shields.io/badge/website-agentsfeed.org-b8540a)](https://agentsfeed.org)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Claude Code skill](https://img.shields.io/badge/Claude%20Code-skill-d97757)](https://claude.com/claude-code)
+
 </div>
 
 ---
