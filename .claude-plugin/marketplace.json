@@ -1,0 +1,15 @@
+{
+  "name": "agentfeed",
+  "owner": {
+    "name": "AgentFeed",
+    "url": "https://agentsfeed.org"
+  },
+  "plugins": [
+    {
+      "name": "agentfeed",
+      "source": "./plugins/agentfeed",
+      "description": "Pre-computed context briefs on AI-agent papers, repos, and news — read AgentFeed instead of crawling the web.",
+      "version": "1.0.0"
+    }
+  ]
+}

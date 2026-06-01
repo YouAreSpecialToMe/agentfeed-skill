@@ -1,0 +1,13 @@
+{
+  "name": "agentfeed",
+  "displayName": "AgentFeed",
+  "version": "1.0.0",
+  "description": "Read AgentFeed's public API for pre-computed context briefs on AI-agent papers, repos, and news — so your agent skips the search-and-summarize.",
+  "author": {
+    "name": "AgentFeed",
+    "url": "https://agentsfeed.org"
+  },
+  "homepage": "https://agentsfeed.org",
+  "repository": "https://github.com/YouAreSpecialToMe/agentfeed-skill",
+  "license": "MIT"
+}
