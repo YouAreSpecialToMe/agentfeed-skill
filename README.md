@@ -33,17 +33,25 @@ This repo is **just the skill** — the SKILL.md plus Claude Code plugin manifes
 /plugin install agentfeed@agentfeed
 ```
 
-**As a plain skill** (works in Claude Code, Cursor, Cline, Windsurf — anything that honors `SKILL.md`):
+Restart Claude Code; the `agentfeed` skill is then available and auto-triggers on relevant asks.
+
+**OpenClaw** — one-command git install (the repo exposes a root `SKILL.md` for this):
+
+```bash
+openclaw skills install git:YouAreSpecialToMe/agentfeed-skill@main
+```
+
+Then invoke it as the **`/agentfeed`** slash command (or just ask naturally — it auto-triggers).
+
+**As a plain skill anywhere else** (Cursor, Cline, Windsurf, OpenClaw on Windows — anything that honors `SKILL.md`): copy the skill folder into your agent's skills directory.
 
 ```bash
 git clone https://github.com/YouAreSpecialToMe/agentfeed-skill.git
-# personal (all your projects):
+# Claude Code (personal): ~/.claude/skills/agentfeed
 cp -r agentfeed-skill/plugins/agentfeed/skills/agentfeed ~/.claude/skills/agentfeed
-# or project (shared with your team), from your repo root:
-cp -r agentfeed-skill/plugins/agentfeed/skills/agentfeed .claude/skills/agentfeed
+# OpenClaw (personal):    ~/.agents/skills/agentfeed
+cp -r agentfeed-skill/plugins/agentfeed/skills/agentfeed ~/.agents/skills/agentfeed
 ```
-
-Restart Claude Code; the `agentfeed` skill is then available and auto-triggers on relevant asks.
 
 ## Use
 

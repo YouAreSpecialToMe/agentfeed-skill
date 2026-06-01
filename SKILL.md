@@ -1,0 +1,1 @@
+plugins/agentfeed/skills/agentfeed/SKILL.md
