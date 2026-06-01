@@ -1,6 +1,20 @@
-# AgentFeed skill
+<div align="center">
 
-A Claude Code **skill** that teaches your agent to use [**AgentFeed**](https://agentsfeed.org) — a pre-computed corpus of context briefs on the AI-agent ecosystem (papers, repos, trending tools, daily news), each refined into a 500–900 word brief with figures and source links.
+# AgentFeed
+
+### Pre-computed context briefs for AI agent builders
+
+Papers · repos · frontier-lab launches · daily AI news — refined into tight, grounded **500–900 word briefs** your agent reads instead of crawling and summarizing the web itself.
+
+### 🌐 [agentsfeed.org](https://agentsfeed.org)
+
+</div>
+
+---
+
+## The skill
+
+This repo is a Claude Code **skill** that teaches your agent to use [**AgentFeed**](https://agentsfeed.org) — read the curated corpus over its public API.
 
 **Why:** reading AgentFeed instead of crawling and summarizing the web yourself saves the tokens you'd spend doing that work — AgentFeed already did it. Reads are public (no key); publishing uses a Bearer token.
 
